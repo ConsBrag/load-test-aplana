@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="10" it="0" lt="10" ct="0" ts="1601661331370" s="false" lb="serviceGuestbook" rc="200" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="325" sby="319" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <assertionResult>
+    <name>checkAddGuestbook</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Procter&amp;Gamble&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 52
+Date: Fri, 02 Oct 2020 17:55:30 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;Procter&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<sample t="19" it="12" lt="19" ct="0" ts="1601661331360" s="false" lb="transaction_addGuestbook" rc="" rm="Number of samples in transaction : 2, number of failing samples : 1" tn="sendComment 1-1" dt="" de="" by="599" sby="867" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="96" it="19" lt="95" ct="0" ts="1601661331277" s="false" lb="sendComment" rc="" rm="Number of samples in transaction : 9, number of failing samples : 1" tn="sendComment 1-1" dt="" de="" by="33771" sby="2358" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="24" it="0" lt="24" ct="0" ts="1601661333154" s="false" lb="addGuestbook" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1168" sby="819" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 02 Oct 2020 17:55:32 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1601661333178,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 50\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 50\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Благодарю за отличную работу!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook?user=Центральный%20банк%20Российской%20Федерации&amp;text=Благодарю%20за%20отличную%20работу!</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1601661333181" s="false" lb="serviceGuestbook" rc="200" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="975" sby="319" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <assertionResult>
+    <name>checkAddGuestbook</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Центральный банк Российской Федерации&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 701
+Date: Fri, 02 Oct 2020 17:55:32 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;Procter&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;МТС&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;ДжиИ Мани Банк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;ДжиИ Мани Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Хоум Кредит энд Финанс Банк&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;БОЛЬ&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;ДжиИ Мани Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;ДжиИ Мани Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<sample t="30" it="4" lt="30" ct="1" ts="1601661333154" s="false" lb="transaction_addGuestbook" rc="" rm="Number of samples in transaction : 2, number of failing samples : 2" tn="sendComment 1-1" dt="" de="" by="2143" sby="1138" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="58" it="11" lt="57" ct="1" ts="1601661333120" s="false" lb="sendComment" rc="" rm="Number of samples in transaction : 9, number of failing samples : 2" tn="sendComment 1-1" dt="" de="" by="36018" sby="2629" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="18" it="0" lt="18" ct="0" ts="1601661337634" s="false" lb="addGuestbook" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1144" sby="747" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 02 Oct 2020 17:55:37 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1601661337650,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 50\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 50\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Отличные ребята.&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook?user=Центральный%20банк%20Российской%20Федерации&amp;text=Отличные%20ребята.</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1601661337654" s="false" lb="serviceGuestbook" rc="200" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1157" sby="319" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <assertionResult>
+    <name>checkAddGuestbook</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Центральный банк Российской Федерации&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 883
+Date: Fri, 02 Oct 2020 17:55:37 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;Газпромбанк&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Эльдорадо&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Эльдорадо&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Спутник&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Мегафон&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<sample t="24" it="3" lt="24" ct="1" ts="1601661337634" s="false" lb="transaction_addGuestbook" rc="" rm="Number of samples in transaction : 2, number of failing samples : 2" tn="sendComment 1-1" dt="" de="" by="2301" sby="1066" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="45" it="8" lt="45" ct="1" ts="1601661337608" s="false" lb="sendComment" rc="" rm="Number of samples in transaction : 9, number of failing samples : 2" tn="sendComment 1-1" dt="" de="" by="36358" sby="2557" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1601661338534" s="false" lb="serviceGuestbook" rc="200" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1448" sby="319" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <assertionResult>
+    <name>checkAddGuestbook</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Procter&amp;Gamble&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 1173
+Date: Fri, 02 Oct 2020 17:55:38 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;Газпромбанк&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Эльдорадо&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Эльдорадо&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Спутник&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Мегафон&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;ДжиИ Мани Банк&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;ВТБ 24&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;Procter&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<sample t="10" it="3" lt="10" ct="0" ts="1601661338528" s="false" lb="transaction_addGuestbook" rc="" rm="Number of samples in transaction : 2, number of failing samples : 1" tn="sendComment 1-1" dt="" de="" by="1722" sby="867" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="35" it="221" lt="35" ct="0" ts="1601661338285" s="false" lb="sendComment" rc="" rm="Number of samples in transaction : 9, number of failing samples : 1" tn="sendComment 1-1" dt="" de="" by="36018" sby="2358" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="68" it="0" lt="67" ct="0" ts="1601661339560" s="false" lb="addGuestbook" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1144" sby="747" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 02 Oct 2020 17:55:39 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1601661339624,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 50\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 50\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Отличные ребята.&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook?user=Центральный%20банк%20Российской%20Федерации&amp;text=Отличные%20ребята.</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="2" ts="1601661339630" s="false" lb="serviceGuestbook" rc="200" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1715" sby="319" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <assertionResult>
+    <name>checkAddGuestbook</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Центральный банк Российской Федерации&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 1440
+Date: Fri, 02 Oct 2020 17:55:39 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;Газпромбанк&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Эльдорадо&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Эльдорадо&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Спутник&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Мегафон&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;ДжиИ Мани Банк&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;ВТБ 24&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;Procter&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Газпромбанк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<sample t="81" it="7" lt="80" ct="2" ts="1601661339559" s="false" lb="transaction_addGuestbook" rc="" rm="Number of samples in transaction : 2, number of failing samples : 2" tn="sendComment 1-1" dt="" de="" by="2859" sby="1066" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="317" it="220" lt="314" ct="2" ts="1601661339111" s="false" lb="sendComment" rc="" rm="Number of samples in transaction : 9, number of failing samples : 2" tn="sendComment 1-1" dt="" de="" by="37474" sby="2557" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1601661341539" s="false" lb="serviceGuestbook" rc="200" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="2545" sby="319" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <assertionResult>
+    <name>checkAddGuestbook</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Procter&amp;Gamble&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 2270
+Date: Fri, 02 Oct 2020 17:55:40 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;Газпромбанк&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Эльдорадо&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Эльдорадо&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Спутник&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Мегафон&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;ДжиИ Мани Банк&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;ВТБ 24&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;Procter&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Газпромбанк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;Ренессанс Жизнь&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Sanofi&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Ренессанс Жизнь&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;МТС&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;Мегафон&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;МТС&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;ТрансКредитБанк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Procter&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<sample t="11" it="21" lt="11" ct="0" ts="1601661341531" s="false" lb="transaction_addGuestbook" rc="" rm="Number of samples in transaction : 2, number of failing samples : 1" tn="sendComment 1-1" dt="" de="" by="2819" sby="999" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="40" it="247" lt="40" ct="0" ts="1601661341277" s="false" lb="sendComment" rc="" rm="Number of samples in transaction : 9, number of failing samples : 1" tn="sendComment 1-1" dt="" de="" by="38168" sby="2490" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="6" it="0" lt="6" ct="0" ts="1601661341845" s="false" lb="serviceGuestbook" rc="200" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="325" sby="319" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <assertionResult>
+    <name>checkAddGuestbook</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Procter&amp;Gamble&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 52
+Date: Fri, 02 Oct 2020 17:55:41 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;Procter&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<sample t="19" it="4" lt="18" ct="0" ts="1601661341830" s="false" lb="transaction_addGuestbook" rc="" rm="Number of samples in transaction : 2, number of failing samples : 1" tn="sendComment 1-1" dt="" de="" by="599" sby="867" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="67" it="222" lt="65" ct="0" ts="1601661341564" s="false" lb="sendComment" rc="" rm="Number of samples in transaction : 9, number of failing samples : 1" tn="sendComment 1-1" dt="" de="" by="33771" sby="2358" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="18" it="0" lt="18" ct="0" ts="1601661343799" s="false" lb="addGuestbook" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1129" sby="702" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 02 Oct 2020 17:55:43 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1601661343815,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 50\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 50\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Спасибо!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook?user=Центральный%20банк%20Российской%20Федерации&amp;text=Спасибо!</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1601661343818" s="false" lb="serviceGuestbook" rc="200" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="992" sby="319" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <assertionResult>
+    <name>checkAddGuestbook</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Центральный банк Российской Федерации&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 718
+Date: Fri, 02 Oct 2020 17:55:43 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;Procter&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Газпромбанк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;ВТБ 24&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;БОЛЬ&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<sample t="24" it="3" lt="24" ct="1" ts="1601661343798" s="false" lb="transaction_addGuestbook" rc="" rm="Number of samples in transaction : 2, number of failing samples : 2" tn="sendComment 1-1" dt="" de="" by="2121" sby="1021" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="45" it="222" lt="45" ct="1" ts="1601661343558" s="false" lb="sendComment" rc="" rm="Number of samples in transaction : 9, number of failing samples : 2" tn="sendComment 1-1" dt="" de="" by="36013" sby="2512" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="41" it="0" lt="38" ct="0" ts="1601661344128" s="false" lb="addGuestbook" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1144" sby="747" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 02 Oct 2020 17:55:43 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1601661344163,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 50\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 50\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Отличные ребята.&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook?user=Центральный%20банк%20Российской%20Федерации&amp;text=Отличные%20ребята.</java.net.URL>
+</httpSample>
+<httpSample t="64" it="0" lt="64" ct="1" ts="1601661344173" s="false" lb="serviceGuestbook" rc="200" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1109" sby="319" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <assertionResult>
+    <name>checkAddGuestbook</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Центральный банк Российской Федерации&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 835
+Date: Fri, 02 Oct 2020 17:55:43 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;Procter&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Газпромбанк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;ВТБ 24&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;БОЛЬ&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Райффайзенбанк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<sample t="105" it="6" lt="102" ct="1" ts="1601661344128" s="false" lb="transaction_addGuestbook" rc="" rm="Number of samples in transaction : 2, number of failing samples : 2" tn="sendComment 1-1" dt="" de="" by="2253" sby="1066" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="128" it="245" lt="124" ct="1" ts="1601661343866" s="false" lb="sendComment" rc="" rm="Number of samples in transaction : 9, number of failing samples : 2" tn="sendComment 1-1" dt="" de="" by="36262" sby="2557" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="21" it="0" lt="21" ct="0" ts="1601661344757" s="false" lb="addGuestbook" rc="500" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1188" sby="879" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 02 Oct 2020 17:55:44 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;timestamp&quot;:1601661344776,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 50\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 50\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Рекомендую, это лучшая компания на свете&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook?user=Центральный%20банк%20Российской%20Федерации&amp;text=Рекомендую,%20это%20лучшая%20компания%20на%20свете</java.net.URL>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="1" ts="1601661344779" s="false" lb="serviceGuestbook" rc="200" rm="" tn="sendComment 1-1" dt="text" de="UTF-8" by="1248" sby="319" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <assertionResult>
+    <name>checkAddGuestbook</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Центральный банк Российской Федерации&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 974
+Date: Fri, 02 Oct 2020 17:55:44 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;Procter&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Газпромбанк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;ВТБ 24&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;БОЛЬ&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;Альфа-Банк&lt;/b&gt;: &apos;Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Райффайзенбанк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете&apos;&lt;br&gt;&lt;b&gt;Мегафон&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;ДжиИ Мани Банк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<sample t="27" it="2" lt="27" ct="1" ts="1601661344757" s="false" lb="transaction_addGuestbook" rc="" rm="Number of samples in transaction : 2, number of failing samples : 2" tn="sendComment 1-1" dt="" de="" by="2436" sby="1198" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="49" it="223" lt="48" ct="1" ts="1601661344515" s="false" lb="sendComment" rc="" rm="Number of samples in transaction : 9, number of failing samples : 2" tn="sendComment 1-1" dt="" de="" by="36584" sby="2689" sc="1" ec="1" ng="1" na="2" hn="Kastik">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+
+</testResults>

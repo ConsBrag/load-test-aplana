@@ -1,0 +1,849 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1601661330923,16,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,16,0,2
+1601661330936,10,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,10,0,2
+1601661330933,10,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,10,26,2
+1601661330918,16,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,16,35,2
+1601661330970,16,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,16,0,0
+1601661330970,16,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,16,0,0
+1601661330969,16,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,16,3,0
+1601661330988,95,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,2234,319,1,2,http://localhost:8080/service/guestbook,95,0,0
+1601661331050,13,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,12,0,0
+1601661330969,111,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,6346,734,1,2,null,111,37,0
+1601661331118,13,serviceGuestbook,200,,sendComment 1-1,text,true,,2234,319,1,2,http://localhost:8080/service/guestbook,12,0,0
+1601661331049,26,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,6346,734,1,2,null,24,110,0
+1601661331186,15,addGuestbook,200,,sendComment 1-1,text,true,,274,543,1,2,http://localhost:8080/service/guestbook?user=Эльдорадо&text=Спасибо!,15,0,0
+1601661331203,10,serviceGuestbook,200,,sendComment 1-1,text,true,,2282,319,1,2,http://localhost:8080/service/guestbook,10,0,0
+1601661331185,25,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2556,862,1,2,null,25,4,0
+1601661330917,77,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,37690,2353,1,2,null,75,220,2
+1601661331216,11,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,9,0,0
+1601661331215,11,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,9,2,0
+1601661331229,8,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,7,0,0
+1601661331228,8,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,7,2,0
+1601661331238,9,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,9,0,0
+1601661331248,6,serviceGuestbook,200,,sendComment 1-1,text,true,,2282,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661331238,15,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,6394,734,1,2,null,15,2,0
+1601661331256,8,addGuestbook,200,,sendComment 1-1,text,true,,274,708,1,2,"http://localhost:8080/service/guestbook?user=Мегафон&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",8,0,0
+1601661331265,11,serviceGuestbook,200,,sendComment 1-1,text,true,,2385,319,1,2,http://localhost:8080/service/guestbook,11,0,0
+1601661331255,19,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2659,1027,1,2,null,19,2,0
+1601661331215,53,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,37841,2518,1,2,null,50,8,0
+1601661331277,12,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,11,0,0
+1601661331277,12,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,11,1,0
+1601661331118,176,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,176,0,173
+1601661331291,8,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,8,0,0
+1601661331290,8,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,8,2,0
+1601661331295,6,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661330918,309,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,29281,1409,1,2,null,309,75,175
+1601661331300,16,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,16,0,0
+1601661331303,18,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,17,0,0
+1601661331302,18,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,17,2,0
+1601661331323,8,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,7,0,0
+1601661331332,19,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,19,0,0
+1601661331322,27,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,4384,734,1,2,null,26,3,0
+1601661331302,45,clearGuestbookHistory,200,"Number of samples in transaction : 4, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,27037,1090,1,2,null,43,8,0
+1601661331318,41,serviceGuestbook,200,,sendComment 1-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,41,0,0
+1601661331300,57,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4384,734,1,2,null,57,3,0
+1601661331360,9,addGuestbook,200,,sendComment 1-1,text,true,,274,548,1,2,http://localhost:8080/service/guestbook?user=Procter&Gamble&text=Отличные%20ребята.,9,0,0
+1601661331370,10,serviceGuestbook,200,,sendComment 1-1,text,false,Test failed: text expected to contain /<b>Procter&Gamble</b>: 'Отличные ребята.'<br>/,325,319,1,2,http://localhost:8080/service/guestbook,10,0,0
+1601661331360,19,transaction_addGuestbook,,"Number of samples in transaction : 2, number of failing samples : 1",sendComment 1-1,,false,,599,867,1,2,null,19,12,0
+1601661331277,96,sendComment,,"Number of samples in transaction : 9, number of failing samples : 1",sendComment 1-1,,false,,33771,2358,1,2,null,95,19,0
+1601661331603,8,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,8,0,0
+1601661331394,8,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,8,210,0
+1601661331613,6,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,6,0,0
+1601661331612,6,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,6,2,0
+1601661331621,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661331629,5,serviceGuestbook,200,,sendComment 1-1,text,true,,325,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661331620,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4437,734,1,2,null,11,4,0
+1601661331635,6,addGuestbook,200,,sendComment 1-1,text,true,,274,624,1,2,http://localhost:8080/service/guestbook?user=МТС&text=Благодарю%20за%20отличную%20работу!,6,0,0
+1601661331643,5,serviceGuestbook,200,,sendComment 1-1,text,true,,401,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661331635,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,675,943,1,2,null,10,2,0
+1601661331394,36,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,33900,2434,1,2,null,35,218,0
+1601661331651,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661331650,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,2,0
+1601661331659,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661331658,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,2,0
+1601661331666,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661331673,5,serviceGuestbook,200,,sendComment 1-1,text,true,,401,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661331666,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4513,734,1,2,null,9,2,0
+1601661331679,6,addGuestbook,200,,sendComment 1-1,text,true,,274,567,1,2,http://localhost:8080/service/guestbook?user=ДжиИ%20Мани%20Банк&text=Спасибо!,6,0,0
+1601661331685,5,serviceGuestbook,200,,sendComment 1-1,text,true,,457,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661331678,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,731,886,1,2,null,11,2,0
+1601661331649,32,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34032,2377,1,2,null,31,10,0
+1601661331898,16,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,16,0,0
+1601661331692,16,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,16,208,0
+1601661331916,8,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,8,0,0
+1601661331916,8,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,8,1,0
+1601661331926,8,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,7,0,0
+1601661331935,5,serviceGuestbook,200,,sendComment 1-1,text,true,,457,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661331925,13,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4569,734,1,2,null,12,3,0
+1601661331941,7,addGuestbook,200,,sendComment 1-1,text,true,,274,744,1,2,"http://localhost:8080/service/guestbook?user=ДжиИ%20Мани%20Банк&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",7,0,0
+1601661331949,5,serviceGuestbook,200,,sendComment 1-1,text,true,,572,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661331941,12,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,846,1063,1,2,null,12,2,0
+1601661331692,49,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34203,2554,1,2,null,48,214,0
+1601661332166,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661331955,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,212,0
+1601661332174,7,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,7,0,0
+1601661332174,7,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,7,1,0
+1601661332182,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661332188,5,serviceGuestbook,200,,sendComment 1-1,text,true,,572,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661332182,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4684,734,1,2,null,10,2,0
+1601661332194,6,addGuestbook,200,,sendComment 1-1,text,true,,274,579,1,2,http://localhost:8080/service/guestbook?user=ОТП%20Банк&text=Отличные%20ребята.,6,0,0
+1601661332201,5,serviceGuestbook,200,,sendComment 1-1,text,true,,632,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661332194,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,906,898,1,2,null,11,1,0
+1601661331955,35,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34378,2389,1,2,null,35,216,0
+1601661332207,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661332207,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,0,0
+1601661332215,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661332215,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661332222,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661332228,5,serviceGuestbook,200,,sendComment 1-1,text,true,,632,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661332221,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4744,734,1,2,null,10,2,0
+1601661332234,5,addGuestbook,200,,sendComment 1-1,text,true,,274,756,1,2,http://localhost:8080/service/guestbook?user=Хоум%20Кредит%20энд%20Финанс%20Банк&text=Благодарю%20за%20отличную%20работу!,5,0,0
+1601661332240,6,serviceGuestbook,200,,sendComment 1-1,text,true,,751,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661332233,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1025,1075,1,2,null,11,2,0
+1601661332207,33,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34557,2566,1,2,null,32,6,0
+1601661332461,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661332249,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,213,0
+1601661332469,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661332469,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661332476,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661332482,5,serviceGuestbook,200,,sendComment 1-1,text,true,,751,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661332475,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4863,734,1,2,null,10,2,0
+1601661332488,6,addGuestbook,200,,sendComment 1-1,text,true,,274,513,1,2,http://localhost:8080/service/guestbook?user=БОЛЬ&text=Спасибо!,6,0,0
+1601661332495,5,serviceGuestbook,200,,sendComment 1-1,text,true,,789,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661332487,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1063,832,1,2,null,11,3,0
+1601661332247,32,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34714,2323,1,2,null,32,222,0
+1601661332713,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661332501,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,213,0
+1601661332722,9,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,9,0,0
+1601661332721,9,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,9,2,0
+1601661332733,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661332739,6,serviceGuestbook,200,,sendComment 1-1,text,true,,789,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661332732,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4901,734,1,2,null,11,2,0
+1601661332746,6,addGuestbook,200,,sendComment 1-1,text,true,,274,744,1,2,"http://localhost:8080/service/guestbook?user=ДжиИ%20Мани%20Банк&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",6,0,0
+1601661332753,6,serviceGuestbook,200,,sendComment 1-1,text,true,,904,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661332746,12,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1178,1063,1,2,null,12,1,0
+1601661332501,39,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34867,2554,1,2,null,39,219,0
+1601661332965,8,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661332760,8,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,206,0
+1601661332974,7,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,7,0,0
+1601661332974,7,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,7,1,0
+1601661332982,19,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,18,0,0
+1601661333002,101,serviceGuestbook,200,,sendComment 1-1,text,true,,904,319,1,2,http://localhost:8080/service/guestbook,101,0,0
+1601661332982,120,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5016,734,1,2,null,119,2,0
+1601661333104,8,addGuestbook,200,,sendComment 1-1,text,true,,274,612,1,2,http://localhost:8080/service/guestbook?user=ДжиИ%20Мани%20Банк&text=Отличные%20ребята.,8,0,0
+1601661333113,6,serviceGuestbook,200,,sendComment 1-1,text,true,,975,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661333104,14,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1249,931,1,2,null,14,2,0
+1601661332760,149,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35053,2422,1,2,null,147,211,0
+1601661333121,9,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,8,0,0
+1601661333120,9,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,8,2,0
+1601661333131,7,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,7,0,0
+1601661333131,7,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,7,1,0
+1601661333140,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661333147,6,serviceGuestbook,200,,sendComment 1-1,text,true,,975,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661333139,12,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5087,734,1,2,null,12,3,0
+1601661333154,24,addGuestbook,500,,sendComment 1-1,text,false,,1168,819,1,2,http://localhost:8080/service/guestbook?user=Центральный%20банк%20Российской%20Федерации&text=Благодарю%20за%20отличную%20работу!,24,0,0
+1601661333181,6,serviceGuestbook,200,,sendComment 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Благодарю за отличную работу!'<br>/,975,319,1,2,http://localhost:8080/service/guestbook,6,0,1
+1601661333154,30,transaction_addGuestbook,,"Number of samples in transaction : 2, number of failing samples : 2",sendComment 1-1,,false,,2143,1138,1,2,null,30,4,1
+1601661333120,58,sendComment,,"Number of samples in transaction : 9, number of failing samples : 2",sendComment 1-1,,false,,36018,2629,1,2,null,57,11,1
+1601661333368,6,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661331355,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,6,2014,0
+1601661333376,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661333382,5,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,975,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661333375,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,5087,734,1,2,null,10,3,0
+1601661331355,16,clearGuestbookHistory,200,"Number of samples in transaction : 4, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,27740,1090,1,2,null,16,2019,0
+1601661333399,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661333191,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,209,0
+1601661333407,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661333406,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,2,0
+1601661333413,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661333419,5,serviceGuestbook,200,,sendComment 1-1,text,true,,975,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661333413,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5087,734,1,2,null,11,1,0
+1601661333425,6,addGuestbook,200,,sendComment 1-1,text,true,,274,567,1,2,http://localhost:8080/service/guestbook?user=ДжиИ%20Мани%20Банк&text=Спасибо!,6,0,0
+1601661333432,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1031,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661333425,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1305,886,1,2,null,11,2,0
+1601661333189,33,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35180,2377,1,2,null,33,216,0
+1601661333438,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661333438,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,1,0
+1601661333446,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661333446,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661333453,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661333459,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1031,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661333452,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5143,734,1,2,null,10,3,0
+1601661333465,6,addGuestbook,200,,sendComment 1-1,text,true,,274,792,1,2,"http://localhost:8080/service/guestbook?user=Филип%20Морис%20Интернэшнл&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",6,0,0
+1601661333472,4,serviceGuestbook,200,,sendComment 1-1,text,true,,1162,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661333465,10,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1436,1111,1,2,null,10,2,0
+1601661333438,32,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35367,2602,1,2,null,31,7,0
+1601661333681,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661333477,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,205,0
+1601661333689,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661333688,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,3,0
+1601661333696,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661333703,4,serviceGuestbook,200,,sendComment 1-1,text,true,,1162,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661333696,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5274,734,1,2,null,10,2,0
+1601661333708,7,addGuestbook,200,,sendComment 1-1,text,true,,274,624,1,2,http://localhost:8080/service/guestbook?user=ТрансКредитБанк&text=Отличные%20ребята.,7,0,0
+1601661333716,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1237,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661333708,12,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1511,943,1,2,null,12,2,0
+1601661333477,33,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35573,2434,1,2,null,33,212,0
+1601661333929,8,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,8,0,0
+1601661333723,8,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,8,253,0
+1601661333985,45,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,45,0,0
+1601661333985,45,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,45,3,0
+1601661334034,13,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,13,0,0
+1601661334048,136,serviceGuestbook,200,,sendComment 1-1,text,true,,1237,319,1,2,http://localhost:8080/service/guestbook,136,0,0
+1601661334033,149,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5349,734,1,2,null,149,3,0
+1601661334185,19,addGuestbook,200,,sendComment 1-1,text,true,,274,732,1,2,http://localhost:8080/service/guestbook?user=Филип%20Морис%20Интернэшнл&text=Благодарю%20за%20отличную%20работу!,19,0,0
+1601661334205,19,serviceGuestbook,200,,sendComment 1-1,text,true,,1349,319,1,2,http://localhost:8080/service/guestbook,19,0,0
+1601661334185,38,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1623,1051,1,2,null,38,2,0
+1601661333723,240,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35760,2542,1,2,null,240,262,0
+1601661334238,28,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,26,0,0
+1601661334238,28,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,26,1,0
+1601661334267,12,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,12,0,0
+1601661334267,12,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,12,2,0
+1601661334281,10,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,10,0,0
+1601661334292,112,serviceGuestbook,200,,sendComment 1-1,text,true,,1349,319,1,2,http://localhost:8080/service/guestbook,112,0,0
+1601661334281,122,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5461,734,1,2,null,122,4,0
+1601661334408,15,addGuestbook,200,,sendComment 1-1,text,true,,274,531,1,2,http://localhost:8080/service/guestbook?user=Мегафон&text=Спасибо!,15,0,0
+1601661334424,13,serviceGuestbook,200,,sendComment 1-1,text,true,,1393,319,1,2,http://localhost:8080/service/guestbook,12,0,0
+1601661334408,28,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1667,850,1,2,null,27,1,0
+1601661334225,190,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35916,2341,1,2,null,187,23,0
+1601661334440,10,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,10,0,0
+1601661334439,10,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,10,2,0
+1601661334452,7,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,7,0,0
+1601661334452,7,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,7,1,0
+1601661334461,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661334469,6,serviceGuestbook,200,,sendComment 1-1,text,true,,1393,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661334460,12,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5505,734,1,2,null,12,4,0
+1601661334476,6,addGuestbook,200,,sendComment 1-1,text,true,,274,711,1,2,"http://localhost:8080/service/guestbook?user=МТС%20Банк&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",6,0,0
+1601661334483,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1497,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661334476,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1771,1030,1,2,null,11,2,0
+1601661334439,40,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,36064,2521,1,2,null,40,10,0
+1601661334490,10,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,9,0,0
+1601661334490,10,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,9,2,0
+1601661334503,9,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,9,0,0
+1601661334503,9,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,9,1,0
+1601661334514,8,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,8,0,0
+1601661334523,6,serviceGuestbook,200,,sendComment 1-1,text,true,,1497,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661334513,14,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5609,734,1,2,null,14,3,0
+1601661334531,7,addGuestbook,200,,sendComment 1-1,text,true,,274,576,1,2,http://localhost:8080/service/guestbook?user=Спутник&text=Отличные%20ребята.,7,0,0
+1601661334539,7,serviceGuestbook,200,,sendComment 1-1,text,true,,1556,319,1,2,http://localhost:8080/service/guestbook,7,0,0
+1601661334530,14,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1830,895,1,2,null,14,3,0
+1601661334490,47,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,36227,2386,1,2,null,46,10,0
+1601661334763,9,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,9,0,0
+1601661334547,9,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,9,217,0
+1601661334774,6,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,6,0,0
+1601661334773,6,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,6,2,0
+1601661334782,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661334788,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1556,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661334781,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5668,734,1,2,null,10,2,0
+1601661334794,6,addGuestbook,200,,sendComment 1-1,text,true,,274,696,1,2,http://localhost:8080/service/guestbook?user=ТрансКредитБанк&text=Благодарю%20за%20отличную%20работу!,6,0,0
+1601661334801,4,serviceGuestbook,200,,sendComment 1-1,text,true,,1655,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661334794,10,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1929,1015,1,2,null,10,2,0
+1601661334547,35,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,36385,2506,1,2,null,35,224,0
+1601661334812,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661334811,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,2,0
+1601661334820,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661334819,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,2,0
+1601661334827,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661334833,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1655,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661334827,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5767,734,1,2,null,10,1,0
+1601661334839,7,addGuestbook,200,,sendComment 1-1,text,true,,274,576,1,2,http://localhost:8080/service/guestbook?user=Ренессанс%20Жизнь&text=Спасибо!,6,0,0
+1601661334847,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1714,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661334839,12,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1988,895,1,2,null,11,1,0
+1601661334807,34,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,36543,2386,1,2,null,32,11,0
+1601661335062,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661334853,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,210,0
+1601661335070,6,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,6,0,0
+1601661335070,6,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,6,1,0
+1601661335078,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661335084,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1714,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661335077,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5826,734,1,2,null,10,3,0
+1601661335090,6,addGuestbook,200,,sendComment 1-1,text,true,,274,696,1,2,"http://localhost:8080/service/guestbook?user=ИБРАЭ&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",6,0,0
+1601661335097,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1813,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661335090,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2087,1015,1,2,null,11,1,0
+1601661334853,34,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,36701,2506,1,2,null,33,215,0
+1601661335309,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661335103,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,207,0
+1601661335316,6,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661335316,6,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661335323,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661335329,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1813,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661335323,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5925,734,1,2,null,10,1,0
+1601661335335,6,addGuestbook,200,,sendComment 1-1,text,true,,274,576,1,2,http://localhost:8080/service/guestbook?user=Мегафон&text=Отличные%20ребята.,6,0,0
+1601661335342,4,serviceGuestbook,200,,sendComment 1-1,text,true,,1872,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661335335,10,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2146,895,1,2,null,10,2,0
+1601661335103,32,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,36859,2386,1,2,null,31,212,0
+1601661335403,11,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,11,0,0
+1601661333390,11,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,11,2013,0
+1601661335415,6,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661335423,62,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,1872,319,1,2,http://localhost:8080/service/guestbook,62,0,0
+1601661335415,68,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,5984,734,1,2,null,68,3,0
+1601661335486,2,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,2,0,0
+1601661335489,4,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661333390,85,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,28919,1409,1,2,null,85,2017,0
+1601661335557,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661335347,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,211,0
+1601661335564,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661335564,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661335571,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661335577,4,serviceGuestbook,200,,sendComment 1-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661335570,9,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4384,734,1,2,null,9,3,0
+1601661335582,6,addGuestbook,200,,sendComment 1-1,text,true,,274,672,1,2,http://localhost:8080/service/guestbook?user=Газпромбанк&text=Благодарю%20за%20отличную%20работу!,6,0,0
+1601661335589,5,serviceGuestbook,200,,sendComment 1-1,text,true,,364,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661335582,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,638,991,1,2,null,11,1,0
+1601661335347,31,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,33810,2482,1,2,null,31,216,0
+1601661335807,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661335596,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,212,0
+1601661335816,6,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,6,0,0
+1601661335816,6,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,6,1,0
+1601661335824,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661335831,67,serviceGuestbook,200,,sendComment 1-1,text,true,,364,319,1,2,http://localhost:8080/service/guestbook,67,0,0
+1601661335823,73,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4476,734,1,2,null,73,2,0
+1601661335898,16,addGuestbook,200,,sendComment 1-1,text,true,,274,615,1,2,http://localhost:8080/service/guestbook?user=Филип%20Морис%20Интернэшнл&text=Спасибо!,16,0,0
+1601661335915,7,serviceGuestbook,200,,sendComment 1-1,text,true,,437,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661335898,23,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,711,934,1,2,null,22,1,0
+1601661335595,109,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,33975,2425,1,2,null,108,219,0
+1601661335923,13,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,13,0,0
+1601661335923,13,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,13,1,0
+1601661335938,10,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,10,0,0
+1601661335938,10,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,10,1,0
+1601661335949,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661335957,5,serviceGuestbook,200,,sendComment 1-1,text,true,,437,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661335949,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4549,734,1,2,null,11,3,0
+1601661335963,6,addGuestbook,200,,sendComment 1-1,text,true,,274,720,1,2,"http://localhost:8080/service/guestbook?user=Эльдорадо&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",6,0,0
+1601661335970,4,serviceGuestbook,200,,sendComment 1-1,text,true,,544,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661335963,10,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,818,1039,1,2,null,10,2,0
+1601661335923,44,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34155,2530,1,2,null,44,8,0
+1601661336179,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661335976,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,204,0
+1601661336188,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661336187,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,2,0
+1601661336194,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661336201,5,serviceGuestbook,200,,sendComment 1-1,text,true,,544,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661336194,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4656,734,1,2,null,11,1,0
+1601661336207,6,addGuestbook,200,,sendComment 1-1,text,true,,274,579,1,2,http://localhost:8080/service/guestbook?user=ОТП%20Банк&text=Отличные%20ребята.,6,0,0
+1601661336213,5,serviceGuestbook,200,,sendComment 1-1,text,true,,604,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661336207,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,878,898,1,2,null,11,0,0
+1601661335976,34,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34322,2389,1,2,null,34,209,0
+1601661336219,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661336219,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,1,0
+1601661336227,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661336226,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,2,0
+1601661336233,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661336239,5,serviceGuestbook,200,,sendComment 1-1,text,true,,604,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661336233,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4716,734,1,2,null,10,1,0
+1601661336245,6,addGuestbook,200,,sendComment 1-1,text,true,,274,732,1,2,http://localhost:8080/service/guestbook?user=Филип%20Морис%20Интернэшнл&text=Благодарю%20за%20отличную%20работу!,6,0,0
+1601661336251,5,serviceGuestbook,200,,sendComment 1-1,text,true,,715,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661336245,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,989,1051,1,2,null,11,0,0
+1601661336219,32,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34493,2542,1,2,null,32,6,0
+1601661336475,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,5,0,0
+1601661336258,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,5,218,0
+1601661336482,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661336482,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661336488,6,openGuestbook,200,,sendComment 1-1,text,true,,4131,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661336494,7,serviceGuestbook,200,,sendComment 1-1,text,true,,715,319,1,2,http://localhost:8080/service/guestbook,7,0,2
+1601661336488,13,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4846,734,1,2,null,12,0,2
+1601661336502,6,addGuestbook,200,,sendComment 1-1,text,true,,274,519,1,2,http://localhost:8080/service/guestbook?user=ИБРАЭ&text=Спасибо!,6,0,0
+1601661336509,4,serviceGuestbook,200,,sendComment 1-1,text,true,,755,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661336502,10,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1029,838,1,2,null,10,2,0
+1601661336257,34,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34663,2329,1,2,null,32,223,2
+1601661336722,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661336514,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,209,0
+1601661336730,11,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,11,0,0
+1601661336730,11,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,11,1,0
+1601661336742,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661336748,60,serviceGuestbook,200,,sendComment 1-1,text,true,,755,319,1,2,http://localhost:8080/service/guestbook,60,0,0
+1601661336742,65,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4867,734,1,2,null,65,1,0
+1601661336809,6,addGuestbook,200,,sendComment 1-1,text,true,,274,721,1,2,"http://localhost:8080/service/guestbook?user=Альфа-Банк&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",6,0,0
+1601661336816,6,serviceGuestbook,200,,sendComment 1-1,text,true,,863,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661336808,12,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1137,1040,1,2,null,12,2,0
+1601661336514,95,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34792,2531,1,2,null,95,214,0
+1601661336823,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661336823,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,1,0
+1601661336832,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661336831,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,2,0
+1601661336839,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661336845,6,serviceGuestbook,200,,sendComment 1-1,text,true,,863,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661336838,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4975,734,1,2,null,11,2,0
+1601661336852,5,addGuestbook,200,,sendComment 1-1,text,true,,274,579,1,2,http://localhost:8080/service/guestbook?user=МТС%20Банк&text=Отличные%20ребята.,5,0,0
+1601661336858,5,serviceGuestbook,200,,sendComment 1-1,text,true,,923,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661336851,10,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1197,898,1,2,null,10,2,0
+1601661336823,33,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34960,2389,1,2,null,33,7,0
+1601661337070,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661336864,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,207,0
+1601661337077,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661337077,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661337084,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661337090,4,serviceGuestbook,200,,sendComment 1-1,text,true,,923,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661337083,9,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5035,734,1,2,null,9,3,0
+1601661337095,6,addGuestbook,200,,sendComment 1-1,text,true,,274,660,1,2,http://localhost:8080/service/guestbook?user=Эльдорадо&text=Благодарю%20за%20отличную%20работу!,6,0,0
+1601661337102,4,serviceGuestbook,200,,sendComment 1-1,text,true,,1010,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661337095,10,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1284,979,1,2,null,10,2,0
+1601661336863,30,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35107,2470,1,2,null,30,214,0
+1601661337320,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661337108,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,213,0
+1601661337328,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661337328,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661337334,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661337340,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1010,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661337334,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5122,734,1,2,null,10,2,0
+1601661337346,6,addGuestbook,200,,sendComment 1-1,text,true,,274,531,1,2,http://localhost:8080/service/guestbook?user=Спутник&text=Спасибо!,6,0,0
+1601661337353,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1054,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661337346,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1328,850,1,2,null,11,1,0
+1601661337107,32,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35238,2341,1,2,null,32,219,0
+1601661337507,6,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661335494,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,6,2014,0
+1601661337514,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661337520,5,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,1054,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661337514,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,5166,734,1,2,null,10,1,0
+1601661335494,16,clearGuestbookHistory,200,"Number of samples in transaction : 4, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,27819,1090,1,2,null,16,2017,0
+1601661337569,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661337359,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,211,0
+1601661337577,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661337577,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661337584,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661337590,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1054,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661337583,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5166,734,1,2,null,9,2,0
+1601661337595,7,addGuestbook,200,,sendComment 1-1,text,true,,274,708,1,2,"http://localhost:8080/service/guestbook?user=Мегафон&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",6,0,0
+1601661337602,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1157,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661337595,12,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1431,1027,1,2,null,11,0,0
+1601661337359,34,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35385,2518,1,2,null,32,214,0
+1601661337608,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661337608,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,1,0
+1601661337616,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661337615,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,2,0
+1601661337622,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661337628,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1157,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661337622,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5269,734,1,2,null,10,1,0
+1601661337634,18,addGuestbook,500,,sendComment 1-1,text,false,,1144,747,1,2,http://localhost:8080/service/guestbook?user=Центральный%20банк%20Российской%20Федерации&text=Отличные%20ребята.,18,0,0
+1601661337654,6,serviceGuestbook,200,,sendComment 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Отличные ребята.'<br>/,1157,319,1,2,http://localhost:8080/service/guestbook,6,0,1
+1601661337634,24,transaction_addGuestbook,,"Number of samples in transaction : 2, number of failing samples : 2",sendComment 1-1,,false,,2301,1066,1,2,null,24,3,1
+1601661337608,45,sendComment,,"Number of samples in transaction : 9, number of failing samples : 2",sendComment 1-1,,false,,36358,2557,1,2,null,45,8,1
+1601661337863,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661337662,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,202,0
+1601661337872,13,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,13,0,0
+1601661337872,13,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,13,1,0
+1601661337887,15,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,15,0,0
+1601661337903,72,serviceGuestbook,200,,sendComment 1-1,text,true,,1157,319,1,2,http://localhost:8080/service/guestbook,72,0,0
+1601661337886,87,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5269,734,1,2,null,87,3,0
+1601661337976,8,addGuestbook,200,,sendComment 1-1,text,true,,274,684,1,2,http://localhost:8080/service/guestbook?user=ДжиИ%20Мани%20Банк&text=Благодарю%20за%20отличную%20работу!,8,0,0
+1601661337984,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1252,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661337976,13,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1526,1003,1,2,null,13,1,0
+1601661337661,120,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35583,2494,1,2,null,120,209,0
+1601661338206,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661337992,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,215,0
+1601661338213,6,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,6,0,0
+1601661338213,6,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,6,1,0
+1601661338220,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661338227,4,serviceGuestbook,200,,sendComment 1-1,text,true,,1252,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661338220,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5364,734,1,2,null,10,2,0
+1601661338232,6,addGuestbook,200,,sendComment 1-1,text,true,,274,512,1,2,http://localhost:8080/service/guestbook?user=ВТБ%2024&text=Спасибо!,6,0,0
+1601661338239,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1292,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661338232,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1566,831,1,2,null,11,1,0
+1601661337990,33,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35718,2322,1,2,null,33,221,0
+1601661338245,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661338245,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,1,0
+1601661338252,7,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,6,0,0
+1601661338252,7,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,6,0,0
+1601661338260,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661338266,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1292,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661338260,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5404,734,1,2,null,10,1,0
+1601661338272,6,addGuestbook,200,,sendComment 1-1,text,true,,274,711,1,2,"http://localhost:8080/service/guestbook?user=ОТП%20Банк&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",6,0,0
+1601661338279,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1396,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661338271,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1670,1030,1,2,null,11,3,0
+1601661338245,34,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35862,2521,1,2,null,33,6,0
+1601661338489,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661338285,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,205,0
+1601661338496,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661338496,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661338502,7,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,7,0,0
+1601661338520,7,serviceGuestbook,200,,sendComment 1-1,text,true,,1396,319,1,2,http://localhost:8080/service/guestbook,7,0,0
+1601661338502,14,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5508,734,1,2,null,14,11,0
+1601661338528,5,addGuestbook,200,,sendComment 1-1,text,true,,274,548,1,2,http://localhost:8080/service/guestbook?user=Procter&Gamble&text=Отличные%20ребята.,5,0,0
+1601661338534,5,serviceGuestbook,200,,sendComment 1-1,text,false,Test failed: text expected to contain /<b>Procter&Gamble</b>: 'Отличные ребята.'<br>/,1448,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661338528,10,transaction_addGuestbook,,"Number of samples in transaction : 2, number of failing samples : 1",sendComment 1-1,,false,,1722,867,1,2,null,10,3,0
+1601661338285,35,sendComment,,"Number of samples in transaction : 9, number of failing samples : 1",sendComment 1-1,,false,,36018,2358,1,2,null,35,221,0
+1601661338755,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661338541,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,215,0
+1601661338762,8,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,7,0,0
+1601661338762,8,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,7,1,0
+1601661338771,8,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,8,0,0
+1601661338780,6,serviceGuestbook,200,,sendComment 1-1,text,true,,1448,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661338771,14,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5560,734,1,2,null,13,1,0
+1601661338787,6,addGuestbook,200,,sendComment 1-1,text,true,,274,732,1,2,http://localhost:8080/service/guestbook?user=Филип%20Морис%20Интернэшнл&text=Благодарю%20за%20отличную%20работу!,6,0,0
+1601661338794,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1559,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661338786,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1833,1051,1,2,null,11,3,0
+1601661338541,39,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,36181,2542,1,2,null,37,220,0
+1601661338803,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661338802,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,2,0
+1601661338811,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661338811,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661338818,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661338824,4,serviceGuestbook,200,,sendComment 1-1,text,true,,1559,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661338817,9,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5671,734,1,2,null,9,3,0
+1601661338829,6,addGuestbook,200,,sendComment 1-1,text,true,,274,555,1,2,http://localhost:8080/service/guestbook?user=Газпромбанк&text=Спасибо!,6,0,0
+1601661338836,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1611,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661338829,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1885,874,1,2,null,11,2,0
+1601661338800,31,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,36344,2365,1,2,null,31,11,0
+1601661339055,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,5,0,0
+1601661338842,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,5,220,0
+1601661339068,7,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,7,0,0
+1601661339068,7,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,7,11,0
+1601661339087,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661339093,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1611,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661339086,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5723,734,1,2,null,10,2,0
+1601661339099,5,addGuestbook,200,,sendComment 1-1,text,true,,274,711,1,2,"http://localhost:8080/service/guestbook?user=МТС%20Банк&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",5,0,0
+1601661339105,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1715,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661339098,10,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1989,1030,1,2,null,10,3,0
+1601661338842,33,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,36500,2521,1,2,null,32,236,0
+1601661339318,23,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,21,0,0
+1601661339111,23,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,21,208,0
+1601661339343,16,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,16,0,0
+1601661339342,16,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,16,2,0
+1601661339361,9,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,9,0,0
+1601661339536,12,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,12,0,0
+1601661337528,12,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,12,2010,0
+1601661339371,188,serviceGuestbook,200,,sendComment 1-1,text,true,,1715,319,1,2,http://localhost:8080/service/guestbook,188,0,0
+1601661339360,197,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5827,734,1,2,null,197,2,0
+1601661339550,9,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,9,0,0
+1601661339560,9,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,1715,319,1,2,http://localhost:8080/service/guestbook,9,0,0
+1601661339550,18,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,5827,734,1,2,null,18,2,0
+1601661337527,30,clearGuestbookHistory,200,"Number of samples in transaction : 4, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,28480,1090,1,2,null,30,2016,0
+1601661339560,68,addGuestbook,500,,sendComment 1-1,text,false,,1144,747,1,2,http://localhost:8080/service/guestbook?user=Центральный%20банк%20Российской%20Федерации&text=Отличные%20ребята.,67,0,0
+1601661339630,13,serviceGuestbook,200,,sendComment 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Отличные ребята.'<br>/,1715,319,1,2,http://localhost:8080/service/guestbook,13,0,2
+1601661339559,81,transaction_addGuestbook,,"Number of samples in transaction : 2, number of failing samples : 2",sendComment 1-1,,false,,2859,1066,1,2,null,80,7,2
+1601661339111,317,sendComment,,"Number of samples in transaction : 9, number of failing samples : 2",sendComment 1-1,,false,,37474,2557,1,2,null,314,220,2
+1601661339649,10,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,10,0,0
+1601661339648,10,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,10,3,0
+1601661339662,9,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,9,0,0
+1601661339661,9,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,9,2,0
+1601661339673,9,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,8,0,0
+1601661339683,6,serviceGuestbook,200,,sendComment 1-1,text,true,,1715,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661339673,15,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5827,734,1,2,null,14,1,0
+1601661339690,9,addGuestbook,200,,sendComment 1-1,text,true,,274,693,1,2,http://localhost:8080/service/guestbook?user=Ренессанс%20Жизнь&text=Благодарю%20за%20отличную%20работу!,9,0,0
+1601661339700,6,serviceGuestbook,200,,sendComment 1-1,text,true,,1813,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661339690,15,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2087,1012,1,2,null,15,1,0
+1601661339648,49,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,36702,2503,1,2,null,48,10,0
+1601661339710,10,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,10,0,0
+1601661339710,10,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,10,2,0
+1601661339722,11,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,11,0,0
+1601661339722,11,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,11,2,0
+1601661339736,11,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,10,0,0
+1601661339748,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1813,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661339736,16,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5925,734,1,2,null,15,2,0
+1601661339755,7,addGuestbook,200,,sendComment 1-1,text,true,,274,495,1,2,http://localhost:8080/service/guestbook?user=Sanofi&text=Спасибо!,7,0,0
+1601661339763,6,serviceGuestbook,200,,sendComment 1-1,text,true,,1849,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661339754,13,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2123,814,1,2,null,13,3,0
+1601661339707,50,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,36836,2305,1,2,null,49,13,0
+1601661339977,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661339770,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,209,0
+1601661339987,6,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661339986,6,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,2,0
+1601661339994,7,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,7,0,0
+1601661340002,6,serviceGuestbook,200,,sendComment 1-1,text,true,,1849,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661339994,13,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5961,734,1,2,null,12,1,0
+1601661340009,12,addGuestbook,200,,sendComment 1-1,text,true,,274,711,1,2,"http://localhost:8080/service/guestbook?user=ОТП%20Банк&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",12,0,0
+1601661340024,6,serviceGuestbook,200,,sendComment 1-1,text,true,,1953,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661340008,18,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2227,1030,1,2,null,18,4,0
+1601661339770,44,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,36976,2521,1,2,null,42,216,0
+1601661340031,8,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661340031,8,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,0,0
+1601661340040,6,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,6,0,0
+1601661340040,6,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,6,2,0
+1601661340048,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661340055,6,serviceGuestbook,200,,sendComment 1-1,text,true,,1953,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661340048,12,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,6065,734,1,2,null,12,1,0
+1601661340062,6,addGuestbook,200,,sendComment 1-1,text,true,,274,579,1,2,http://localhost:8080/service/guestbook?user=ОТП%20Банк&text=Отличные%20ребята.,6,0,0
+1601661340069,6,serviceGuestbook,200,,sendComment 1-1,text,true,,2013,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661340061,12,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2287,898,1,2,null,12,3,0
+1601661340031,38,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,37140,2389,1,2,null,37,7,0
+1601661340292,11,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,10,0,0
+1601661340076,11,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,10,218,0
+1601661340307,10,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,9,0,0
+1601661340306,10,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,9,2,0
+1601661340318,9,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,9,0,0
+1601661340328,6,serviceGuestbook,200,,sendComment 1-1,text,true,,2013,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661340318,15,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,6125,734,1,2,null,15,1,0
+1601661340335,6,addGuestbook,200,,sendComment 1-1,text,true,,274,661,1,2,http://localhost:8080/service/guestbook?user=Альфа-Банк&text=Благодарю%20за%20отличную%20работу!,6,0,0
+1601661340342,12,serviceGuestbook,200,,sendComment 1-1,text,true,,2101,319,1,2,http://localhost:8080/service/guestbook,11,0,0
+1601661340334,18,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2375,980,1,2,null,17,2,0
+1601661340076,54,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,37288,2471,1,2,null,51,224,0
+1601661340560,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661340356,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,205,0
+1601661340568,6,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,6,0,0
+1601661340568,6,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,6,1,0
+1601661340575,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661340582,59,serviceGuestbook,200,,sendComment 1-1,text,true,,2101,319,1,2,http://localhost:8080/service/guestbook,59,0,0
+1601661340575,65,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,6213,734,1,2,null,65,1,0
+1601661340641,6,addGuestbook,200,,sendComment 1-1,text,true,,274,576,1,2,http://localhost:8080/service/guestbook?user=Ренессанс%20Жизнь&text=Спасибо!,6,0,0
+1601661340647,5,serviceGuestbook,200,,sendComment 1-1,text,true,,2160,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661340641,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2434,895,1,2,null,11,0,0
+1601661340355,89,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,37435,2386,1,2,null,89,208,0
+1601661340653,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661340653,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,0,0
+1601661340661,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661340660,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,2,0
+1601661340667,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661340673,5,serviceGuestbook,200,,sendComment 1-1,text,true,,2160,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661340667,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,6272,734,1,2,null,10,1,0
+1601661340679,6,addGuestbook,200,,sendComment 1-1,text,true,,274,684,1,2,"http://localhost:8080/service/guestbook?user=МТС&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",5,0,0
+1601661340685,5,serviceGuestbook,200,,sendComment 1-1,text,true,,2255,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661340679,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2529,1003,1,2,null,10,1,0
+1601661340652,33,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,37589,2494,1,2,null,31,6,0
+1601661340907,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661340691,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,238,0
+1601661340937,10,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,10,0,0
+1601661340937,10,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,10,1,0
+1601661340948,18,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,18,0,0
+1601661340967,12,serviceGuestbook,200,,sendComment 1-1,text,true,,2255,319,1,2,http://localhost:8080/service/guestbook,12,0,0
+1601661340948,30,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,6367,734,1,2,null,30,1,0
+1601661340979,8,addGuestbook,200,,sendComment 1-1,text,true,,274,576,1,2,http://localhost:8080/service/guestbook?user=Мегафон&text=Отличные%20ребята.,8,0,0
+1601661340988,4,serviceGuestbook,200,,sendComment 1-1,text,true,,2314,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661340979,12,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2588,895,1,2,null,12,2,0
+1601661340691,59,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,37743,2386,1,2,null,58,243,0
+1601661341194,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661340993,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,201,0
+1601661341202,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661341201,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,2,0
+1601661341208,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661341214,6,serviceGuestbook,200,,sendComment 1-1,text,true,,2314,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661341208,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,6426,734,1,2,null,11,1,0
+1601661341221,5,addGuestbook,200,,sendComment 1-1,text,true,,274,624,1,2,http://localhost:8080/service/guestbook?user=МТС&text=Благодарю%20за%20отличную%20работу!,5,0,0
+1601661341227,5,serviceGuestbook,200,,sendComment 1-1,text,true,,2389,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661341220,10,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2663,943,1,2,null,10,2,0
+1601661340993,33,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,37877,2434,1,2,null,32,206,0
+1601661341235,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661341234,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,2,0
+1601661341243,7,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,7,0,0
+1601661341243,7,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,7,1,0
+1601661341251,7,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,7,0,0
+1601661341259,5,serviceGuestbook,200,,sendComment 1-1,text,true,,2389,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661341251,12,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,6501,734,1,2,null,12,1,0
+1601661341265,6,addGuestbook,200,,sendComment 1-1,text,true,,274,579,1,2,http://localhost:8080/service/guestbook?user=ТрансКредитБанк&text=Спасибо!,6,0,0
+1601661341271,5,serviceGuestbook,200,,sendComment 1-1,text,true,,2449,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661341265,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,2723,898,1,2,null,11,1,0
+1601661341233,37,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,38012,2389,1,2,null,36,7,0
+1601661341478,11,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,11,0,0
+1601661341277,11,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,11,202,0
+1601661341491,6,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,6,0,0
+1601661341491,6,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,6,1,0
+1601661341498,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661341505,6,serviceGuestbook,200,,sendComment 1-1,text,true,,2449,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661341498,12,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,6561,734,1,2,null,12,21,0
+1601661341532,6,addGuestbook,200,,sendComment 1-1,text,true,,274,680,1,2,"http://localhost:8080/service/guestbook?user=Procter&Gamble&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",6,0,0
+1601661341539,5,serviceGuestbook,200,,sendComment 1-1,text,false,"Test failed: text expected to contain /<b>Procter&Gamble</b>: 'Рекомендую, это лучшая компания на свете'<br>/",2545,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661341531,11,transaction_addGuestbook,,"Number of samples in transaction : 2, number of failing samples : 1",sendComment 1-1,,false,,2819,999,1,2,null,11,21,0
+1601661341277,40,sendComment,,"Number of samples in transaction : 9, number of failing samples : 1",sendComment 1-1,,false,,38168,2490,1,2,null,40,247,0
+1601661341589,7,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661339573,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,6,2017,0
+1601661341597,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661341603,61,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,2545,319,1,2,http://localhost:8080/service/guestbook,61,0,0
+1601661341597,66,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,6657,734,1,2,null,66,2,0
+1601661341665,3,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,3,0,1
+1601661341668,5,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661339573,81,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,29592,1409,1,2,null,80,2019,1
+1601661341774,16,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,15,0,0
+1601661341564,16,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,15,211,0
+1601661341792,9,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,9,0,0
+1601661341791,9,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,9,3,0
+1601661341804,11,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,11,0,0
+1601661341817,12,serviceGuestbook,200,,sendComment 1-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,12,0,0
+1601661341804,23,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4384,734,1,2,null,23,3,0
+1601661341831,13,addGuestbook,200,,sendComment 1-1,text,true,,274,548,1,2,http://localhost:8080/service/guestbook?user=Procter&Gamble&text=Отличные%20ребята.,12,0,0
+1601661341845,6,serviceGuestbook,200,,sendComment 1-1,text,false,Test failed: text expected to contain /<b>Procter&Gamble</b>: 'Отличные ребята.'<br>/,325,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661341830,19,transaction_addGuestbook,,"Number of samples in transaction : 2, number of failing samples : 1",sendComment 1-1,,false,,599,867,1,2,null,18,4,0
+1601661341564,67,sendComment,,"Number of samples in transaction : 9, number of failing samples : 1",sendComment 1-1,,false,,33771,2358,1,2,null,65,222,0
+1601661341854,18,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,18,0,0
+1601661341854,18,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,18,1,0
+1601661341874,8,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,8,0,0
+1601661341873,8,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,8,2,0
+1601661341884,9,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,9,0,0
+1601661341895,10,serviceGuestbook,200,,sendComment 1-1,text,true,,325,319,1,2,http://localhost:8080/service/guestbook,10,0,0
+1601661341884,19,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4437,734,1,2,null,19,3,0
+1601661341907,14,addGuestbook,200,,sendComment 1-1,text,true,,274,636,1,2,http://localhost:8080/service/guestbook?user=ИБРАЭ&text=Благодарю%20за%20отличную%20работу!,14,0,0
+1601661341922,6,serviceGuestbook,200,,sendComment 1-1,text,true,,405,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661341906,20,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,679,955,1,2,null,20,2,0
+1601661341854,65,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,33904,2446,1,2,null,65,10,0
+1601661342133,8,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,8,0,0
+1601661341931,8,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,8,203,0
+1601661342142,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661342142,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,0,0
+1601661342148,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661342155,5,serviceGuestbook,200,,sendComment 1-1,text,true,,405,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661342148,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4517,734,1,2,null,11,1,0
+1601661342161,6,addGuestbook,200,,sendComment 1-1,text,true,,274,555,1,2,http://localhost:8080/service/guestbook?user=Газпромбанк&text=Спасибо!,6,0,0
+1601661342167,5,serviceGuestbook,200,,sendComment 1-1,text,true,,457,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661342161,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,731,874,1,2,null,11,0,0
+1601661341929,35,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34036,2365,1,2,null,35,208,0
+1601661342381,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661342173,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,209,0
+1601661342388,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661342388,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661342394,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661342400,5,serviceGuestbook,200,,sendComment 1-1,text,true,,457,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661342394,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4569,734,1,2,null,11,0,0
+1601661342406,6,addGuestbook,200,,sendComment 1-1,text,true,,274,689,1,2,"http://localhost:8080/service/guestbook?user=ВТБ%2024&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",6,0,0
+1601661342412,5,serviceGuestbook,200,,sendComment 1-1,text,true,,555,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661342405,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,829,1008,1,2,null,11,1,0
+1601661342173,33,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34186,2499,1,2,null,33,211,0
+1601661342418,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661342418,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,0,0
+1601661342425,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661342425,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661342431,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661342437,4,serviceGuestbook,200,,sendComment 1-1,text,true,,555,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661342431,9,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4667,734,1,2,null,9,2,0
+1601661342442,5,addGuestbook,200,,sendComment 1-1,text,true,,274,579,1,2,http://localhost:8080/service/guestbook?user=ОТП%20Банк&text=Отличные%20ребята.,5,0,0
+1601661342448,4,serviceGuestbook,200,,sendComment 1-1,text,true,,615,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661342442,9,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,889,898,1,2,null,9,2,0
+1601661342418,29,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34344,2389,1,2,null,29,6,0
+1601661342660,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661342453,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,208,0
+1601661342668,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661342668,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661342674,6,openGuestbook,200,,sendComment 1-1,text,true,,4131,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661342681,6,serviceGuestbook,200,,sendComment 1-1,text,true,,615,319,1,2,http://localhost:8080/service/guestbook,6,0,1
+1601661342674,12,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4746,734,1,2,null,12,2,1
+1601661342688,6,addGuestbook,200,,sendComment 1-1,text,true,,274,661,1,2,http://localhost:8080/service/guestbook?user=Альфа-Банк&text=Благодарю%20за%20отличную%20работу!,6,0,0
+1601661342695,5,serviceGuestbook,200,,sendComment 1-1,text,true,,703,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661342688,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,977,980,1,2,null,11,1,0
+1601661342453,35,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34511,2471,1,2,null,34,212,1
+1601661342910,8,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661342702,8,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,208,0
+1601661342919,6,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,6,0,0
+1601661342919,6,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,6,1,0
+1601661342927,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661342933,5,serviceGuestbook,200,,sendComment 1-1,text,true,,703,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661342927,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4815,734,1,2,null,11,1,0
+1601661342939,7,addGuestbook,200,,sendComment 1-1,text,true,,274,513,1,2,http://localhost:8080/service/guestbook?user=БОЛЬ&text=Спасибо!,6,0,0
+1601661342946,5,serviceGuestbook,200,,sendComment 1-1,text,true,,741,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661342939,12,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1015,832,1,2,null,11,1,0
+1601661342701,37,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34618,2323,1,2,null,35,214,0
+1601661343166,11,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,11,0,0
+1601661342952,11,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,11,215,0
+1601661343178,6,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,6,0,0
+1601661343178,6,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,6,0,0
+1601661343185,4,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,4,0,0
+1601661343190,62,serviceGuestbook,200,,sendComment 1-1,text,true,,741,319,1,2,http://localhost:8080/service/guestbook,62,0,0
+1601661343184,66,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4853,734,1,2,null,66,2,0
+1601661343253,5,addGuestbook,200,,sendComment 1-1,text,true,,274,721,1,2,"http://localhost:8080/service/guestbook?user=Альфа-Банк&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",5,0,0
+1601661343259,5,serviceGuestbook,200,,sendComment 1-1,text,true,,849,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661343252,10,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1123,1040,1,2,null,9,2,0
+1601661342952,93,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34764,2531,1,2,null,92,219,0
+1601661343265,5,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,5,0,0
+1601661343264,5,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,5,2,0
+1601661343271,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661343271,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661343277,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661343283,4,serviceGuestbook,200,,sendComment 1-1,text,true,,849,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661343277,9,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,4961,734,1,2,null,9,1,0
+1601661343288,5,addGuestbook,200,,sendComment 1-1,text,true,,274,589,1,2,http://localhost:8080/service/guestbook?user=Альфа-Банк&text=Отличные%20ребята.,5,0,0
+1601661343294,5,serviceGuestbook,200,,sendComment 1-1,text,true,,913,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661343287,10,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1187,908,1,2,null,10,2,0
+1601661343264,29,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,34936,2399,1,2,null,29,6,0
+1601661343507,5,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,5,0,0
+1601661343300,5,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,5,208,0
+1601661343513,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661343513,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661343519,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661343525,5,serviceGuestbook,200,,sendComment 1-1,text,true,,913,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661343519,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5025,734,1,2,null,10,1,0
+1601661343531,5,addGuestbook,200,,sendComment 1-1,text,true,,274,636,1,2,http://localhost:8080/service/guestbook?user=ИБРАЭ&text=Благодарю%20за%20отличную%20работу!,5,0,0
+1601661343537,5,serviceGuestbook,200,,sendComment 1-1,text,true,,992,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661343530,10,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1266,955,1,2,null,10,18,0
+1601661343299,30,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35079,2446,1,2,null,30,229,0
+1601661343680,6,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,5,0,0
+1601661341674,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,5,2007,0
+1601661343687,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661343693,5,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,992,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661343687,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,5104,734,1,2,null,10,1,0
+1601661341674,16,clearGuestbookHistory,200,"Number of samples in transaction : 4, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,27757,1090,1,2,null,15,2010,0
+1601661343774,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661343560,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,215,0
+1601661343781,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661343781,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661343787,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661343793,5,serviceGuestbook,200,,sendComment 1-1,text,true,,992,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661343787,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5104,734,1,2,null,10,1,0
+1601661343799,18,addGuestbook,500,,sendComment 1-1,text,false,,1129,702,1,2,http://localhost:8080/service/guestbook?user=Центральный%20банк%20Российской%20Федерации&text=Спасибо!,18,0,0
+1601661343818,6,serviceGuestbook,200,,sendComment 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Спасибо!'<br>/,992,319,1,2,http://localhost:8080/service/guestbook,6,0,1
+1601661343798,24,transaction_addGuestbook,,"Number of samples in transaction : 2, number of failing samples : 2",sendComment 1-1,,false,,2121,1021,1,2,null,24,3,1
+1601661343558,45,sendComment,,"Number of samples in transaction : 9, number of failing samples : 2",sendComment 1-1,,false,,36013,2512,1,2,null,45,222,1
+1601661343826,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661343826,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,0,0
+1601661343833,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661343833,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,2,0
+1601661343840,6,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601661343847,6,serviceGuestbook,200,,sendComment 1-1,text,true,,992,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661343840,12,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5104,734,1,2,null,12,1,0
+1601661343854,6,addGuestbook,200,,sendComment 1-1,text,true,,274,750,1,2,"http://localhost:8080/service/guestbook?user=Райффайзенбанк&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",6,0,0
+1601661343860,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1109,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661343853,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1383,1069,1,2,null,11,2,0
+1601661343826,34,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35275,2560,1,2,null,34,6,0
+1601661344071,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661343866,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,206,0
+1601661344078,7,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,7,0,0
+1601661344078,7,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,7,17,0
+1601661344103,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661344109,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1109,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661344102,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5221,734,1,2,null,9,15,0
+1601661344128,41,addGuestbook,500,,sendComment 1-1,text,false,,1144,747,1,2,http://localhost:8080/service/guestbook?user=Центральный%20банк%20Российской%20Федерации&text=Отличные%20ребята.,38,0,0
+1601661344173,64,serviceGuestbook,200,,sendComment 1-1,text,false,Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Отличные ребята.'<br>/,1109,319,1,2,http://localhost:8080/service/guestbook,64,0,1
+1601661344128,105,transaction_addGuestbook,,"Number of samples in transaction : 2, number of failing samples : 2",sendComment 1-1,,false,,2253,1066,1,2,null,102,6,1
+1601661343866,128,sendComment,,"Number of samples in transaction : 9, number of failing samples : 2",sendComment 1-1,,false,,36262,2557,1,2,null,124,245,1
+1601661344240,5,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,5,0,0
+1601661344239,5,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,5,2,0
+1601661344246,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661344246,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661344252,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661344258,4,serviceGuestbook,200,,sendComment 1-1,text,true,,1109,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601661344252,9,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5221,734,1,2,null,9,2,0
+1601661344263,6,addGuestbook,200,,sendComment 1-1,text,true,,274,648,1,2,http://localhost:8080/service/guestbook?user=Мегафон&text=Благодарю%20за%20отличную%20работу!,6,0,0
+1601661344270,6,serviceGuestbook,200,,sendComment 1-1,text,true,,1192,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661344263,12,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1466,967,1,2,null,12,1,0
+1601661344239,31,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35475,2458,1,2,null,31,6,0
+1601661344481,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661344278,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,204,0
+1601661344488,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661344488,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,0,0
+1601661344494,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661344499,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1192,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661344493,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5304,734,1,2,null,10,1,0
+1601661344504,6,addGuestbook,200,,sendComment 1-1,text,true,,274,567,1,2,http://localhost:8080/service/guestbook?user=ДжиИ%20Мани%20Банк&text=Спасибо!,6,0,0
+1601661344510,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1248,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661344504,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1522,886,1,2,null,11,0,0
+1601661344276,32,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35614,2377,1,2,null,32,207,0
+1601661344732,6,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661344516,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,217,0
+1601661344739,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661344739,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661344745,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661344751,6,serviceGuestbook,200,,sendComment 1-1,text,true,,1248,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661344745,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5360,734,1,2,null,10,1,0
+1601661344757,21,addGuestbook,500,,sendComment 1-1,text,false,,1188,879,1,2,"http://localhost:8080/service/guestbook?user=Центральный%20банк%20Российской%20Федерации&text=Рекомендую,%20это%20лучшая%20компания%20на%20свете",21,0,0
+1601661344779,6,serviceGuestbook,200,,sendComment 1-1,text,false,"Test failed: text expected to contain /<b>Центральный банк Российской Федерации</b>: 'Рекомендую, это лучшая компания на свете'<br>/",1248,319,1,2,http://localhost:8080/service/guestbook,6,0,1
+1601661344757,27,transaction_addGuestbook,,"Number of samples in transaction : 2, number of failing samples : 2",sendComment 1-1,,false,,2436,1198,1,2,null,27,2,1
+1601661344515,49,sendComment,,"Number of samples in transaction : 9, number of failing samples : 2",sendComment 1-1,,false,,36584,2689,1,2,null,48,223,1
+1601661344996,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601661344787,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,6,236,0
+1601661345030,10,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,9,0,0
+1601661345029,10,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,9,2,0
+1601661345041,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661345047,6,serviceGuestbook,200,,sendComment 1-1,text,true,,1248,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661345041,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5360,734,1,2,null,11,1,0
+1601661345054,6,addGuestbook,200,,sendComment 1-1,text,true,,274,582,1,2,http://localhost:8080/service/guestbook?user=Сбербанк&text=Отличные%20ребята.,6,0,0
+1601661345061,5,serviceGuestbook,200,,sendComment 1-1,text,true,,1310,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601661345054,11,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1584,901,1,2,null,11,2,0
+1601661344787,39,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35732,2392,1,2,null,37,242,0
+1601661345068,7,openGeneralSite,200,,sendComment 1-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601661345067,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,22653,356,1,2,null,7,2,0
+1601661345076,5,openClients,200,,sendComment 1-1,text,true,,6135,401,1,2,http://localhost:8080/clients.html,5,0,0
+1601661345076,5,transaction_openClients,200,"Number of samples in transaction : 1, number of failing samples : 0",sendComment 1-1,,true,,6135,401,1,2,null,5,1,0
+1601661345082,5,openGuestbook,200,,sendComment 1-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601661345088,7,serviceGuestbook,200,,sendComment 1-1,text,true,,1310,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601661345082,12,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,5422,734,1,2,null,11,19,0
+1601661345113,9,addGuestbook,200,,sendComment 1-1,text,true,,274,756,1,2,http://localhost:8080/service/guestbook?user=Хоум%20Кредит%20энд%20Финанс%20Банк&text=Благодарю%20за%20отличную%20работу!,9,0,0
+1601661345135,7,serviceGuestbook,200,,sendComment 1-1,text,true,,1429,319,1,2,http://localhost:8080/service/guestbook,7,0,0
+1601661345113,16,transaction_addGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",sendComment 1-1,,true,,1703,1075,1,2,null,16,15,0
+1601661345067,40,sendComment,200,"Number of samples in transaction : 9, number of failing samples : 0",sendComment 1-1,,true,,35913,2566,1,2,null,39,37,0
+1601661345147,0,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",,,true,,0,0,0,0,null,0,205,0
+1601661343701,0,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",,,true,,0,0,0,0,null,0,2017,0
