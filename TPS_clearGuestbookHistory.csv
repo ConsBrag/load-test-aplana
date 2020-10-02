@@ -54,3 +54,267 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1601661343687,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,5104,734,1,2,null,10,1,0
 1601661341674,16,clearGuestbookHistory,200,"Number of samples in transaction : 4, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,27757,1090,1,2,null,15,2010,0
 1601661343701,0,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",,,true,,0,0,0,0,null,0,2017,0
+1601662237419,79,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,73,0,46
+1601662237271,79,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,73,154,46
+1601662237505,9,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,9,0,0
+1601662237516,32,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,932,319,1,2,http://localhost:8080/service/guestbook,31,0,0
+1601662237504,41,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,5044,734,1,2,null,40,5,0
+1601662237271,120,clearGuestbookHistory,200,"Number of samples in transaction : 4, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,27697,1090,1,2,null,113,261,46
+1601662257661,22,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,22,0,0
+1601662237652,22,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,22,20009,0
+1601662257684,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601662257690,7,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,3718,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601662257684,12,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,7830,734,1,2,null,11,1,0
+1601662257728,426,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,426,0,417
+1601662258155,5,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601662237652,465,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,30765,1409,1,2,null,464,20044,417
+1601662258161,8,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,0
+1601662258161,8,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,7,0,0
+1601662258170,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601662258176,6,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601662258169,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,4384,734,1,2,null,11,2,0
+1601662258161,19,clearGuestbookHistory,200,"Number of samples in transaction : 4, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,27037,1090,1,2,null,18,3,0
+1601662278193,21,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,21,0,0
+1601662258183,21,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,21,20011,0
+1601662278216,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,4,0,0
+1601662278221,6,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,3599,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601662278215,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,7711,734,1,2,null,10,2,0
+1601662278228,4,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,4,0,0
+1601662278233,5,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601662258183,41,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,30646,1409,1,2,null,40,20014,0
+1601662298248,19,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,19,0,2
+1601662278238,19,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,19,20011,2
+1601662298268,12,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,12,0,0
+1601662298281,9,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,3364,319,1,2,http://localhost:8080/service/guestbook,9,0,0
+1601662298268,21,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,7476,734,1,2,null,21,2,0
+1601662298292,5,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,5,0,0
+1601662298298,9,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,9,0,0
+1601662278238,54,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,30411,1409,1,2,null,54,20016,2
+1601662318313,20,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,19,0,0
+1601662298308,20,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,19,20006,0
+1601662318334,6,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601662318341,6,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,6485,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601662318334,12,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,10597,734,1,2,null,12,2,0
+1601662318348,6,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,6,0,0
+1601662318355,4,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601662298308,42,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,33532,1409,1,2,null,41,20010,0
+1601662338368,23,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,23,0,0
+1601662318360,23,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,23,20009,0
+1601662338392,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601662338398,6,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,6245,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601662338392,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,10357,734,1,2,null,11,1,0
+1601662338405,6,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,6,0,0
+1601662338412,4,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601662318360,44,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,33292,1409,1,2,null,44,20013,0
+1601662358427,18,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,17,0,4
+1601662338417,18,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,17,20011,4
+1601662358446,8,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,8,0,0
+1601662358454,16,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,5971,319,1,2,http://localhost:8080/service/guestbook,16,0,0
+1601662358446,24,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,10083,734,1,2,null,24,2,0
+1601662358472,11,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,11,0,0
+1601662358483,17,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,17,0,0
+1601662338417,70,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,33018,1409,1,2,null,69,20014,4
+1601662378503,24,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,23,0,0
+1601662358500,24,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,23,20003,0
+1601662378528,6,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601662378534,10,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,9207,319,1,2,http://localhost:8080/service/guestbook,7,0,0
+1601662378528,16,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,13319,734,1,2,null,13,1,0
+1601662378545,12,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,12,0,0
+1601662378558,7,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,7,0,0
+1601662358500,59,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,36255,1409,1,2,null,55,20005,0
+1601662398571,22,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,21,0,0
+1601662378565,22,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,21,20006,0
+1601662398593,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601662398598,6,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,8935,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601662398593,11,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,13047,734,1,2,null,11,1,0
+1601662398605,5,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,5,0,0
+1601662398611,4,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601662378565,42,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,35983,1409,1,2,null,41,20008,0
+1601662418631,7,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,7,0,1
+1601662398615,7,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,7,20017,1
+1601662418640,4,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,4,0,0
+1601662418645,5,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,8767,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601662418639,9,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,12879,734,1,2,null,9,3,0
+1601662418651,7,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,7,0,0
+1601662418659,4,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601662398615,27,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,35815,1409,1,2,null,27,20021,1
+1601662438664,28,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,28,0,0
+1601662418663,28,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,28,20002,0
+1601662438693,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601662438699,20,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,11841,319,1,2,http://localhost:8080/service/guestbook,20,0,0
+1601662438693,25,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,15953,734,1,2,null,25,2,0
+1601662438720,13,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,13,0,0
+1601662438734,4,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601662418663,70,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,38889,1409,1,2,null,70,20006,0
+1601662458744,23,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,23,0,0
+1601662438739,23,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,23,20006,0
+1601662458768,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601662458774,7,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,12376,319,1,2,http://localhost:8080/service/guestbook,7,0,0
+1601662458768,12,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,16488,734,1,2,null,12,2,0
+1601662458782,9,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,9,0,0
+1601662458791,5,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601662438739,49,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,39424,1409,1,2,null,49,20008,0
+1601662478800,8,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,8,0,2
+1601662458796,8,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,8,20005,2
+1601662478809,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601662478815,24,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,11585,319,1,2,http://localhost:8080/service/guestbook,24,0,0
+1601662478809,29,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,15697,734,1,2,null,29,2,0
+1601662478841,13,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,13,0,0
+1601662478854,4,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601662458796,54,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,38633,1409,1,2,null,54,20009,2
+1601662498864,24,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,24,0,0
+1601662478859,24,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,24,20006,0
+1601662498889,6,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601662498897,45,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,14712,319,1,2,http://localhost:8080/service/guestbook,44,0,0
+1601662498889,51,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,18824,734,1,2,null,50,2,0
+1601662498944,53,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,53,0,40
+1601662498998,5,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601662478859,133,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,41760,1409,1,2,null,132,20011,40
+1601662499004,6,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,6,0,0
+1601662499003,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,6,2,0
+1601662499011,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601662499017,5,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601662499011,10,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,4384,734,1,2,null,10,1,0
+1601662499003,16,clearGuestbookHistory,200,"Number of samples in transaction : 4, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,27037,1090,1,2,null,16,4,0
+1601662519035,22,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,22,0,0
+1601662499023,22,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,22,20013,0
+1601662519058,5,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,5,0,0
+1601662519064,14,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,14778,319,1,2,http://localhost:8080/service/guestbook,14,0,0
+1601662519058,19,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,18890,734,1,2,null,19,1,0
+1601662519079,15,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,14,0,0
+1601662519094,11,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,11,0,0
+1601662499023,67,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,41826,1409,1,2,null,66,20016,0
+1601662519106,0,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",,,true,,0,0,0,0,null,0,20003,0
+1601662693683,88,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,82,0,51
+1601662693498,88,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,82,191,51
+1601662693778,11,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,11,0,0
+1601662693791,33,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,13797,319,1,2,http://localhost:8080/service/guestbook,33,0,0
+1601662693778,44,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,17909,734,1,2,null,44,6,0
+1601662693969,393,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,392,0,374
+1601662694364,22,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,22,0,0
+1601662693498,547,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,40845,1409,1,2,null,540,342,425
+1601662694388,12,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,12,0,0
+1601662694388,12,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,12,1,0
+1601662694402,8,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,8,0,0
+1601662694412,7,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,7,0,0
+1601662694402,15,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,4384,734,1,2,null,15,3,0
+1601662694388,27,clearGuestbookHistory,200,"Number of samples in transaction : 4, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,27037,1090,1,2,null,27,29,0
+1601662714450,49,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,48,0,0
+1601662694444,49,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,48,20007,0
+1601662714501,25,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,25,0,0
+1601662714530,113,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,3247,319,1,2,http://localhost:8080/service/guestbook,113,0,0
+1601662714500,138,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,7359,734,1,2,null,138,7,0
+1601662714647,6,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,6,0,0
+1601662714654,21,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,21,0,0
+1601662694444,214,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,30294,1409,1,2,null,213,20017,0
+1601662734689,27,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,26,0,0
+1601662714676,27,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,26,20014,0
+1601662734717,10,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,10,0,0
+1601662734728,6,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,3295,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601662734717,16,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,7407,734,1,2,null,16,2,0
+1601662734735,6,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,6,0,1
+1601662734741,6,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,6,0,0
+1601662714676,55,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,30342,1409,1,2,null,54,20016,1
+1601662754759,10,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,10,0,2
+1601662734747,10,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,10,20014,2
+1601662754771,11,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,11,0,0
+1601662754784,11,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,3243,319,1,2,http://localhost:8080/service/guestbook,11,0,0
+1601662754770,22,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,7355,734,1,2,null,22,4,0
+1601662754796,6,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,6,0,0
+1601662754802,12,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,12,0,0
+1601662734747,50,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,30290,1409,1,2,null,50,20019,2
+1601662774832,32,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,32,0,0
+1601662754815,32,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,32,20019,0
+1601662774866,12,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,12,0,0
+1601662774879,14,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,6398,319,1,2,http://localhost:8080/service/guestbook,14,0,0
+1601662774866,26,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,10510,734,1,2,null,26,2,0
+1601662774894,9,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,9,0,0
+1601662774904,12,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,12,0,0
+1601662754815,79,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,33445,1409,1,2,null,79,20022,0
+1601662794927,24,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,24,0,0
+1601662774916,24,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,24,20011,0
+1601662794953,11,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,10,0,0
+1601662794965,12,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,5990,319,1,2,http://localhost:8080/service/guestbook,12,0,0
+1601662794952,23,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,10102,734,1,2,null,22,3,0
+1601662794979,9,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,9,0,0
+1601662794989,9,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,9,0,0
+1601662774916,65,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,33037,1409,1,2,null,64,20016,0
+1601662815002,44,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,44,0,4
+1601662794999,44,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,44,20005,4
+1601662815050,10,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,10,0,0
+1601662815061,74,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,6519,319,1,2,http://localhost:8080/service/guestbook,73,0,0
+1601662815049,84,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,10631,734,1,2,null,83,3,0
+1601662815137,10,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,10,0,1,2,null,10,0,1
+1601662815148,11,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,11,0,0
+1601662794999,149,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,33566,1409,1,2,null,148,20013,5
+1601662835166,30,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,30,0,0
+1601662815160,30,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,30,20007,0
+1601662835199,9,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,9,0,0
+1601662835209,23,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,8640,319,1,2,http://localhost:8080/service/guestbook,23,0,0
+1601662835198,32,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,12752,734,1,2,null,32,3,0
+1601662835234,12,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,12,0,0
+1601662835247,66,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,66,0,0
+1601662815160,140,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,35688,1409,1,2,null,140,20013,0
+1601662855325,27,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,27,0,0
+1601662835314,27,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,27,20013,0
+1601662855354,7,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,7,0,0
+1601662855363,13,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,9057,319,1,2,http://localhost:8080/service/guestbook,13,0,0
+1601662855354,20,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,13169,734,1,2,null,20,3,0
+1601662855378,12,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,12,0,0
+1601662855390,8,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,8,0,0
+1601662835314,67,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,36105,1409,1,2,null,67,20017,0
+1601662875409,16,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,16,0,5
+1601662855398,16,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,16,20014,5
+1601662875427,12,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,12,0,0
+1601662875440,13,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,8944,319,1,2,http://localhost:8080/service/guestbook,13,0,0
+1601662875427,25,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,13056,734,1,2,null,25,2,0
+1601662875454,13,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,13,0,0
+1601662875468,9,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,9,0,0
+1601662855398,63,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,35992,1409,1,2,null,63,20018,5
+1601662895494,27,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,27,0,0
+1601662875478,27,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,27,20016,0
+1601662895523,12,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,12,0,0
+1601662895536,15,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,11174,319,1,2,http://localhost:8080/service/guestbook,15,0,0
+1601662895522,27,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,15286,734,1,2,null,27,3,0
+1601662895553,17,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,17,0,0
+1601662895571,9,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,9,0,0
+1601662875478,80,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,38222,1409,1,2,null,80,20022,0
+1601662915591,65,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,63,0,0
+1601662895581,65,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,63,20011,0
+1601662915657,11,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,11,0,0
+1601662915670,67,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,11183,319,1,2,http://localhost:8080/service/guestbook,67,0,0
+1601662915657,78,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,15295,734,1,2,null,78,3,0
+1601662915739,15,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,15,0,0
+1601662915755,18,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,331,319,1,2,http://localhost:8080/service/guestbook,18,0,0
+1601662895581,176,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,38290,1409,1,2,null,174,20017,0
+1601662935784,12,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,12,0,2
+1601662915774,12,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,12,20012,2
+1601662935797,8,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,8,0,0
+1601662935806,22,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,11918,319,1,2,http://localhost:8080/service/guestbook,22,0,0
+1601662935797,30,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,16030,734,1,2,null,30,2,0
+1601662935830,35,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,34,0,22
+1601662935865,5,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601662915774,82,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,38966,1409,1,2,null,81,20015,24
+1601662955873,22,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,22,0,0
+1601662935870,22,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,22,20003,0
+1601662955896,6,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,6,0,0
+1601662955903,18,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,15414,319,1,2,http://localhost:8080/service/guestbook,18,0,0
+1601662955896,24,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,19526,734,1,2,null,24,2,0
+1601662955922,16,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,16,0,0
+1601662955938,18,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,18,0,0
+1601662935870,80,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,42462,1409,1,2,null,80,20006,0
+1601662975965,23,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,23,0,0
+1601662955957,23,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,23,20009,0
+1601662975989,7,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,7,0,0
+1601662975996,9,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,14823,319,1,2,http://localhost:8080/service/guestbook,9,0,0
+1601662975989,16,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,18935,734,1,2,null,16,1,0
+1601662976010,11,JDBC Request (DELETE),200,OK,clearGuestbookHistory 2-1,text,true,,11,0,1,2,null,11,0,0
+1601662976021,5,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,5,0,0
+1601662955957,55,clearGuestbookHistory,200,"Number of samples in transaction : 7, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,41871,1409,1,2,null,55,20014,0
+1601662976027,6,openGeneralSite,200,,clearGuestbookHistory 2-1,text,true,,22653,356,1,2,http://localhost:8080/,5,0,0
+1601662976027,6,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,22653,356,1,2,null,5,0,0
+1601662976034,4,openGuestbook,200,,clearGuestbookHistory 2-1,text,true,,4112,415,1,2,http://localhost:8080/guestbook.html,4,0,0
+1601662976039,4,serviceGuestbook,200,,clearGuestbookHistory 2-1,text,true,,272,319,1,2,http://localhost:8080/service/guestbook,4,0,0
+1601662976033,8,transaction_openGuestbook,200,"Number of samples in transaction : 2, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,4384,734,1,2,null,8,3,0
+1601662976027,14,clearGuestbookHistory,200,"Number of samples in transaction : 4, number of failing samples : 0",clearGuestbookHistory 2-1,,true,,27037,1090,1,2,null,13,4,0
+1601662976046,0,transaction_openGeneralSite,200,"Number of samples in transaction : 1, number of failing samples : 0",,,true,,0,0,0,0,null,0,20016,0

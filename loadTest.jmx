@@ -767,29 +767,29 @@
               <hashTree/>
               <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="Timer 5 min" enabled="true">
                 <collectionProp name="load_profile">
-                  <collectionProp name="141396672">
-                    <stringProp name="53">5</stringProp>
-                    <stringProp name="53">5</stringProp>
+                  <collectionProp name="56130304">
+                    <stringProp name="50">2</stringProp>
+                    <stringProp name="50">2</stringProp>
                     <stringProp name="1722">60</stringProp>
                   </collectionProp>
-                  <collectionProp name="-297914684">
+                  <collectionProp name="170084">
+                    <stringProp name="52">4</stringProp>
+                    <stringProp name="52">4</stringProp>
+                    <stringProp name="60">60</stringProp>
+                  </collectionProp>
+                  <collectionProp name="172068">
+                    <stringProp name="54">6</stringProp>
+                    <stringProp name="54">6</stringProp>
+                    <stringProp name="60">60</stringProp>
+                  </collectionProp>
+                  <collectionProp name="174052">
+                    <stringProp name="56">8</stringProp>
+                    <stringProp name="56">8</stringProp>
+                    <stringProp name="60">60</stringProp>
+                  </collectionProp>
+                  <collectionProp name="1672964">
                     <stringProp name="1567">10</stringProp>
                     <stringProp name="1567">10</stringProp>
-                    <stringProp name="60">60</stringProp>
-                  </collectionProp>
-                  <collectionProp name="-294433756">
-                    <stringProp name="1598">20</stringProp>
-                    <stringProp name="1598">20</stringProp>
-                    <stringProp name="60">60</stringProp>
-                  </collectionProp>
-                  <collectionProp name="-262806812">
-                    <stringProp name="1660">40</stringProp>
-                    <stringProp name="1660">40</stringProp>
-                    <stringProp name="60">60</stringProp>
-                  </collectionProp>
-                  <collectionProp name="-224988796">
-                    <stringProp name="1784">80</stringProp>
-                    <stringProp name="1784">80</stringProp>
                     <stringProp name="60">60</stringProp>
                   </collectionProp>
                 </collectionProp>
@@ -1453,9 +1453,9 @@
               <hashTree/>
               <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="Timer 5 min" enabled="true">
                 <collectionProp name="load_profile">
-                  <collectionProp name="1315803404">
-                    <stringProp name="47607">0.5</stringProp>
-                    <stringProp name="47607">0.5</stringProp>
+                  <collectionProp name="-965074708">
+                    <stringProp name="1475715">0.05</stringProp>
+                    <stringProp name="1475715">0.05</stringProp>
                     <stringProp name="50547">300</stringProp>
                   </collectionProp>
                 </collectionProp>
